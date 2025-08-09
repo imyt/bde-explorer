@@ -52,6 +52,23 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				governance: {
+					blue: 'hsl(var(--governance-blue))',
+					'blue-dark': 'hsl(var(--governance-blue-dark))',
+					'blue-light': 'hsl(var(--governance-blue-light))'
+				},
+				quality: {
+					excellent: 'hsl(var(--quality-excellent))',
+					good: 'hsl(var(--quality-good))',
+					warning: 'hsl(var(--quality-warning))',
+					poor: 'hsl(var(--quality-poor))'
+				},
+				lineage: {
+					report: 'hsl(var(--lineage-report))',
+					bde: 'hsl(var(--lineage-bde))',
+					column: 'hsl(var(--lineage-column))',
+					upstream: 'hsl(var(--lineage-upstream))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
